@@ -1,0 +1,413 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+	z-index: +1;
+	background-image: url(../uploads/loginbackround/0130674985c5d4d23c18f048c79b7280.jpg);
+	background-size: 100%;
+}
+
+.index-body{
+    height: 100vh;
+}
+
+header {
+	
+    background-color: #1e2bc4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+	
+}
+
+section {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__btn{
+    border-radius: 25px;
+    border:1px solid white;
+    padding: 5px 22px;
+    margin-left: 7px;
+    background-color: #fff;
+    color:black;
+    font-weight: 700;
+}
+
+.login__input{
+    border: 1px solid white;
+    border-radius: 25px;
+    margin:0 7px;
+    padding: 5px 8px;
+}
+
+#registracija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 333px;
+    margin:10px 50px 10px 0;
+    padding: 40px 5px 50px 5px;
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.4);
+
+}
+
+.registracija__naslov{
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 26px;
+
+}
+
+.registracija__input{
+    margin-bottom: 13px;
+    width: 250px;
+    padding:8px 10px;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
+
+.registracija__btn{
+    margin: 10px 78px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px 45px;
+    color:white;
+}
+
+#content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.fakebook-logo{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 35px;
+    color:white;
+    letter-spacing: 1.5px;
+}
+/*DASHBORD*/
+#img {
+
+}
+.login{
+    width:250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timelineInfoimage img{
+	margin:0 10px;
+    width:300px;
+    height:300px;
+    border-radius: 20%;
+}
+
+
+
+.userimgnav img,
+.userimg img,
+.postedimg1 img{
+    margin:0 10px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+.profile-img img{
+    margin:0 10px;
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.user-name{
+    color:white;
+    text-decoration: none;
+    margin:0px 5px;
+    font-size: 22px;
+}
+
+.header-user{
+    font-size: 22px;
+}
+
+.logout{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color:white;
+    padding: 5px 15px;
+}
+
+/*dashbord - posts*/
+.post {
+    width: 580px;
+    margin: 10px auto;
+    background-color: #a8e1ff;
+    padding: 10px 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    z-index: +1;
+}
+
+
+.status-box {
+    width: 500;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.status-user{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.typeText{
+    width: 95%;
+    height: 50px;
+    margin-left: 22px;
+}
+
+   
+.text {
+	width: 98%;
+    background-color: white;
+    padding: 10px 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px; 
+    position: relative;
+}
+
+.iframe{
+    height: 210px;
+    width:80%;
+    margin:10px 55px;
+}
+
+.options-box{
+    width: 416px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+} 
+
+#fileToUpload::-webkit-file-upload-button,
+.btn{
+    border-radius: 25px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    padding: 7px 25px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+    width: 120px;
+}
+
+.select{
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    width:110px;
+}
+
+
+.post-btn{
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 10px 25px;
+    margin-left:29px;
+    color:black;
+}
+
+/*dash-userpost*/
+
+.dasbordNameImage{
+    display: flex;
+    align-items: center;
+    width:200px;
+    margin-bottom: 15px;
+}
+
+.post_user-info{
+    padding: 10px 2px;
+
+}
+
+.user-name2{
+    color:black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-box{
+    display: flex;
+    margin:5px 15px;
+    width:250px;
+}
+.comemt1,
+.coment-area{
+    margin-bottom: 10px;
+    padding:12px 14px;
+    height: 45px;
+    border-radius: 25px;
+}
+
+.fa-comment{
+    font-size: 25px;
+    margin-right: 7px;
+    margin-top: 2px;
+}
+
+.coment-area{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.comment-box{
+    display: flex;
+    width:250px;
+}
+
+.date{
+    font-size: 10px;
+  
+}
+
+.imgpost img{
+    width: 500px;
+    padding-left: 25px;
+    padding-right: 25ox;
+    
+}
+.coma {
+    display: flex;
+    visibility: visible;
+	width: 525px;
+    margin:10px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;	
+    flex-direction: row;
+    align-items: center;
+}
+
+/*WALL*/
+
+.timeline-profile-pic{
+    margin: 25px 75px;
+    width:150px;
+}
+
+.poruka,
+.timelineProfileBtn{
+    margin: 4px 75px;
+    width:150px;
+    background-color: #000;
+    color:white;
+    display: inline-block;
+}
+
+.timelineContainer{
+    margin:5px 10px;
+    padding:15px 8px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width:350px;
+    position: relative;
+    top:0px;
+    left:10px;
+}
+
+.main{
+    position: relative;
+}
+
+.post-profile{
+    margin-top:35px;
+    margin-left:40%;
+}
+
+.profile-img img {
+    margin: 25px 75px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+.timelineInfo{
+    width:85%;
+    margin: 10px 15px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 4px 8px; 
+}
+.usernamenav {
+	color: white;
+	font-size: 30px;
+}
+
+#chat-sidebar {
+     width: 20%;
+     position: fixed;
+     height: 100%;
+     right: 0px;
+     top: 85px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+	 margin-right: 10px;
+     border: none;
+	 z-index: 0;
+     
+}
+
+#sendbutton{
+    
+    padding: 10px;
+    color: white;
+    background-color: #1e2bc4;
+    border: none;
+    
+}
+
+
+.messageFrom{
+   padding: 10px;
+    color: white;
+    background-color: #1e2bc4;
+    width: 300px;
+    height: auto;
+   border-radius: 10px;
+    
+}
+
+.poruke{
+   padding: 10px;
+    color: white;
+    background-color: #a7aefc;
+    width: 300px;
+    height: auto; 
+    border-radius: 10px;
+}
+
+
+
+
